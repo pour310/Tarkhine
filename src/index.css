@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: Estedad-Black;
+    src: url('/assets/fonts/Estedad-Black.woff2');
+  }
+  @font-face {
+    font-family: Estedad-Bold;
+    src: url('/assets/fonts/Estedad-Bold.woff2');
+  }
+  @font-face {
+    font-family: Estedad-ExtraBold;
+    src: url('/assets/fonts/Estedad-ExtraBold.woff2');
+  }
+  
+  @font-face {
+    font-family: Estedad-ExtraLigh;
+    src: url('/assets/fonts/Estedad-ExtraLight.woff2');
+  }
+
+  @font-face {
+    font-family: Estedad-Ligh;
+    src: url('/assets/fonts/Estedad-Light.woff2');
+  }
+  
+  @font-face {
+    font-family: Estedad-Medium;
+    src: url('/assets/fonts/Estedad-Medium.woff2');
+  }
+  
+  @font-face {
+    font-family: Estedad-Regular;
+    src: url('/assets/fonts/Estedad-Regular.woff2');
+  }
+  
+  
+  @font-face {
+    font-family: Estedad-SemiBold;
+    src: url('/assets/fonts/Estedad-SemiBold.woff2');
+  }
+  
+  @font-face {
+    font-family: Estedad-Thin;
+    src: url('/assets/fonts/Estedad-Thin.woff2');
+  }
+  
+  
+}
+
+
+body{
+  direction: rtl;
+  font-family:  Estedad-Regular;
+  
+}
+
+.dotes{
+  border-bottom: 20px solid rgb(249, 246, 246);
+  border-left: 10px solid transparent;
+  border-right: 7px solid transparent;
+  height: 0;
+  width: 80px;
+}
+a.active{
+  color: #417F56;
+  font-weight: 900;
+}
+
+
+
+
+
